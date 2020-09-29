@@ -49,7 +49,8 @@ h2,
 a,
 li,
 p,
-section {
+section,
+button {
 	font-family: 'SortsMillGoudy', serif;
 	color:$borders;
 	letter-spacing:2px;
@@ -75,6 +76,12 @@ section {
 	padding:0px;
 	padding-left:20px;
 	border-left:1px dotted $shadow;
+}
+button {
+	background: none;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
 }
 header {
 	height:90px;

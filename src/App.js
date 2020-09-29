@@ -1,4 +1,5 @@
 import React from 'react';
+import Music from './Layout/Music';
 import './App.scss';
 
 const App = () => {
@@ -47,15 +48,7 @@ const App = () => {
 					comment me and let your inspiration flow. Let me know if you can add some sounds or something to say. Peace.
 				</p>
 				<h2>Tracks</h2>
-				<ul>
-					{Object.entries(tracks).map(([key, value]) => {
-						return(
-						  	<li>
-						  		<a href={'/audio/' + key + '.mp3'} key={key}>{value}</a>
-						  	</li>
-						)
-					})}
-				</ul>
+				<Music project="record" />
 			</section>
 			<p id="copy">&copy; <a href="http://swimmer.zone/">Swimmer</a> 2011 - {(new Date().getFullYear())}</p>
 			<footer>&#9658;</footer>

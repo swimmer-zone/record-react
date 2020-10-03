@@ -12,36 +12,36 @@ $borders: #ff8f56;
 $play: #be2b1f;
 
 body {
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 	font-family: 'SortsMillGoudy', serif;
-	background-color:$background;
-	background-image:radial-gradient(circle at 70px 95px, $color_font 0%, $background 10%);
-	background-repeat:no-repeat;
-	overflow-x:hidden;
+	background-color: $background;
+	background-image: radial-gradient(circle at 70px 95px, $color_font 0%, $background 10%);
+	background-repeat: no-repeat;
+	overflow-x: hidden;
 }
 footer {
-	display:block;
-	position:absolute;
-	top:5vw;
-	left:5vw;
-	width:12vw;
-	height:12vw;
-	border-radius:50%;
-	background-color:$borders;
-	background-image:radial-gradient(circle at 50px 75px, $play 0%, $borders 95%);
-	transition:text-shadow 2s ease-out;
+	display: block;
+	position: absolute;
+	top: 5vw;
+	left: 5vw;
+	width: 12vw;
+	height: 12vw;
+	border-radius: 50%;
+	background-color: $borders;
+	background-image: radial-gradient(circle at 50px 75px, $play 0%, $borders 95%);
+	transition: text-shadow 2s ease-out;
 	box-shadow: 1px 1px 0 $shadow;
-	color:$color_font;
-	font-size:140px;
-	text-align:center;
+	color: $color_font;
+	font-size: 140px;
+	text-align: center;
 	text-shadow: 8px 8px 16px $shadow;
-	line-height:200px;
+	line-height: 200px;
 
 	&:hover {
-		transition:text-shadow 2s ease-out;
+		transition: text-shadow 2s ease-out;
 		text-shadow: 12px 12px 32px $shadow;
-		cursor:default;
+		cursor: default;
 	}
 }
 header,
@@ -52,30 +52,30 @@ p,
 section,
 button {
 	font-family: 'SortsMillGoudy', serif;
-	color:$borders;
-	letter-spacing:2px;
-	word-spacing:4px;
-	line-height:18px;
-	text-shadow:1px 1px 0 $shadow;
-	font-size:14px;
+	color: $borders;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	line-height: 18px;
+	text-shadow: 1px 1px 0 $shadow;
+	font-size: 14px;
 }
 h2,
 li,
 p,
 section {
-	padding:20px;
-	margin:20px;
+	padding: 20px;
+	margin: 20px;
 }
 section {
-	border:none;
-	top:30vh;
-	left:20vw;
-	width:48vw;
-	position:absolute;
-	text-align:left;
-	padding:0px;
-	padding-left:20px;
-	border-left:1px dotted $shadow;
+	border: none;
+	top: 30vh;
+	left: 20vw;
+	width: 48vw;
+	position: absolute;
+	text-align: left;
+	padding: 0px;
+	padding-left: 20px;
+	border-left: 1px dotted $shadow;
 }
 button {
 	background: none;
@@ -84,78 +84,78 @@ button {
 	cursor: pointer;
 }
 header {
-	height:90px;
-	width:950px;
-	border-width:0px;
-	top:10vh;
-	left:22vw;
-	position:absolute;
-	font-size:80px;
-	margin:60px 20px 60px 0;
-	padding:0;
-	text-align:justify;
+	height: 90px;
+	width: 950px;
+	border-width: 0px;
+	top: 10vh;
+	left: 22vw;
+	position: absolute;
+	font-size: 80px;
+	margin: 60px 20px 60px 0;
+	padding: 0;
+	text-align: justify;
 }
 a {
-	text-decoration:none;
-	color:$borders;
-	transition:border-bottom 1s ease-out;
-	border-bottom:1px dotted $borders;
+	text-decoration: none;
+	color: $borders;
+	transition: border-bottom 1s ease-out;
+	border-bottom: 1px dotted $borders;
 
 	&:hover {
-		border-bottom:1px dotted $shadow;
-		transition:border-bottom 1s ease-out;
+		border-bottom: 1px dotted $shadow;
+		transition: border-bottom 1s ease-out;
 	}
 }
 h2 {
-	font-size:32px;
-	display:block;
-	width:24vw;
-	margin-left:-28vw;
-	text-align:right;
+	font-size: 32px;
+	display: block;
+	width: 24vw;
+	margin-left: -28vw;
+	text-align: right;
 }
 ul {
-	list-style-type:circle;
-	margin-left:-68px;
-	margin-top:-56px;
+	list-style-type: circle;
+	margin-left: -68px;
+	margin-top: -56px;
 
 	li {
-		padding:5px;
+		padding: 5px;
 	}
 }
 p {
-	margin:-72px 0 100px -20px;
+	margin: -72px 0 100px -20px;
 }
 #copy {
-	position:fixed;
-	bottom:20px;
-	right:20px;
-	font-size:10px;
-	margin:0;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	font-size: 10px;
+	margin: 0;
 
 	a {
-		font-size:11px;
-		margin:0;
+		font-size: 11px;
+		margin: 0;
 	}
 }
 
 ::-webkit-scrollbar {
-    height:4px;
-    width:8px;
-    background:$background;
+    height: 4px;
+    width: 8px;
+    background: $background;
 }
 ::-webkit-scrollbar-thumb {
-    background:$borders;
-    border:1px solid $background;
+    background: $borders;
+    border: 1px solid $background;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-    background:$borders;
+    background: $borders;
 }
 ::-webkit-scrollbar-button {
-    background:$borders;
-    border:1px solid $background;
+    background: $borders;
+    border: 1px solid $background;
 }
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-track-piece,
 ::-webkit-scrollbar-corner {
-	background:$background;
+	background: $background;
 }

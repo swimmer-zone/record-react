@@ -3,29 +3,6 @@ import Music from './Layout/Music';
 import './App.scss';
 
 const App = () => {
-	const tracks = {
-		'onderbuik': 		'Onderbuik',
-		'comeback': 		'Comeback',
-		'distance': 		'Distance',
-		'fenomeno': 		'Fenomeno',
-		'geox': 			'Geox',
-		'hoover': 			'Hoover',
-		'lavalamp_dub': 	'Lavalamp Dub',
-		'one': 				'One',
-		'check_i': 			'Check I',
-		'clock': 			'Clock',
-		'thanks_and_praises':'Thanks And Praises',
-		'the_poet_lounge': 	'The Poet Lounge',
-		'try_this': 		'Try This',
-		'ambient_dub': 		'Ambient Dub',
-		'seatree': 			'Seatree',
-		'symbolisme_dub': 	'Symbolisme Dub',
-		'classic_space_dub':'Classic Space Dub',
-		'dub_breath': 		'Dub Breath',
-		'marcmello': 		'Marcmello',
-		'rain': 			'Rain',
-		'exotronic': 		'Exotronic'
-	};
 	const birthday = '1986-03-01';
 
 	function calcAge(dateString) {

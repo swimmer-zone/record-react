@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Async from 'react-async';
+import { CircleLoader } from 'react-spinners';
 
 const Music = (props) => {
     const player = useRef(null);
@@ -22,7 +23,7 @@ const Music = (props) => {
 	return (
 		<ul>
 			<Async promiseFn={loadTracks}>
-				<Async.Loading>Loading...</Async.Loading>
+				<Async.Loading><CircleLoader color={"#6e3B1f"} /></Async.Loading>
 				<Async.Fulfilled>
 					{data => {
 						return (
